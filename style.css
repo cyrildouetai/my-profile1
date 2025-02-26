@@ -33,7 +33,6 @@ body {
     margin-top: 120px; 
 }
 
-
 #Cyril {
     width: 150px;
     height: 150px;
@@ -48,31 +47,31 @@ body {
     color: black;
 }
 
-.main-container {
-    max-width: 900px;
-    margin: 600px auto 50px auto;
+.content-container {
+    width: 90%; 
+    max-width: 800px; 
+    margin: auto; 
     padding: 20px;
+}
+
+.section, .sub-section, .follow-container {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section {
     background: white;
     padding: 20px;
-    margin-top: 150px; 
     border-radius: 10px;
     box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-.degree {
+.degree, .skill-box {
     background: #f4f4f4;
     padding: 10px;
-    border-radius: 8px;
-    margin: 10px 0;
-}
-
-.skill-box {
-    background: #eef2f3;
-    padding: 15px;
     border-radius: 8px;
     margin: 10px 0;
 }
@@ -114,31 +113,6 @@ section {
     color: #0077b5;
 }
 
-.follow-container, .sub-section {
-    width: 700px;
-    margin: 40px auto;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Correction de la syntaxe */
-    padding: 5px;
-}
-
-.content-container {
-    width: 90%; /* Ajuste la largeur pour s’adapter aux petits écrans */
-    max-width: 800px; /* Largeur max pour éviter une mise en page trop large sur desktop */
-    margin: auto; /* Centre le contenu */
-    padding: 20px;
-}
-
-
-.section, .sub-section, .follow-container {
-    background-color: whitesmoke;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -146,7 +120,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .content-container {
-        width: 95%; /* Ajuste la largeur pour petits écrans */
+        width: 95%; 
         padding: 10px;
     }
 
